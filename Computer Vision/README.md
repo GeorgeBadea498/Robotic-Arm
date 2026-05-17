@@ -12,4 +12,4 @@ This directory contains the core intelligence of the robotic sorting system, lev
 1. *Adaptive Preprocessing*: Dynamic contrast ($\alpha$) and brightness ($\beta$) scaling to eliminate environmental illumination and shadow issues in the pickup zone.
 2. *ROI Safety Masking*: Software-level spatial filtering that ignores any background noise or false positives outside the operational workspace.
 3. *Closed-Loop Hardware Synchronization*: A robust state-machine synchronization layout that manages serial communications and awaits mechanical hardware feedback (DONE signal) before initiating the next detection cycle.
-4. *test_camera.py: A simple sanity-check script to verify the IP webcam connection and hardware setup before running the heavy AI models.
+4. test_camera.py: A simple sanity-check script to verify the IP webcam connection and hardware setup before running the heavy AI models.
